@@ -1,4 +1,4 @@
-body {
+/*body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -10,4 +10,128 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}*/
+
+.header{
+  justify-content: center;
+  font-size:20px;
+  font-weight: 400;
+  height: 30px;
+  padding-left:35%;
+  border-style:double;
+  background-color: rgb(134, 36, 36);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.currency-converter{
+  background-color:rgb(5, 4, 4);
+  color: blanchedalmond;
+  padding: 10px;
+  margin:5px;
+  text-align:center;
+
+}
+.news-feed{
+  background-color: rgb(199, 38, 38);
+  font-style: oblique;
+  color:aliceblue;
+}
+
+.app{
+  background-color: rgb(103, 55, 55);
+  max-width:70%;
+  justify-content:center;
+  margin-left:200px;
+
+}
+
+.exchange{
+  background-color: rgb(103, 55, 55);
+  font-size:30px;
+  font-weight: 400;
+  color:aliceblue;
+
+}
+button:hover{
+  background-color: coral;
+
+}
+
+.coin-container{
+  display:flex;
+  justify-content:center;
+  background-color: black;
+  color:blanchedalmond;
+  height:-10px;
+}
+
+.coin-rows{
+  display:flex;
+  flex-direction: row;
+  justify-items:center;
+  align-items: center;
+  height: 50px;
+  width:900px;
+  border-bottom:1px solid brown;
+
+}
+
+.coin h1{
+  font-size:20px;
+}
+
+.coin{
+  display:flex;
+  align-items: center;
+  padding:10px;
+  padding-right:24px;
+  min-width:300px;
+
+}
+
+.coin img{
+  height: 30px;
+  width:30px;
+  margin-right: 10px;
+
+}
+
+.coin symbol{
+  display:flex;
+  margin-top:200px;
+  text-align:center;
+  text-transform: uppercase;
+
+}
+
+.coin-data{
+  display:flex;
+  text-align:center;
+  justify-content:space-between;
+  width:100%;
+
+}
+
+.coin-price{
+  margin-left:120px;
+  width:130px;
+
+}
+
+.coin-volume{
+  width:250px;
+
+}
+
+.coin-text{
+  color:antiquewhite
+}
+
+.coin-input{
+  height:20px;
+}
+
+.main.container{
+  background-image: url("image/crypto.jpg");
 }
